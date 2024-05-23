@@ -3,7 +3,7 @@ module protocol::debt_value {
   use std::vector;
   use std::fixed_point32::FixedPoint32;
   use sui::clock::Clock;
-  use math::fixed_point32_empower;
+  use 0xad013d5fde39e15eabda32b3dbdafd67dac32b798ce63237c27a8f73339b9b6f::fixed_point32_empower;
   use protocol::obligation::{Self, Obligation};
   use protocol::interest_model as interest_model_lib;
   use protocol::market::{Self as market_lib, Market};

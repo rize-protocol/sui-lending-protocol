@@ -7,7 +7,7 @@ module scallop_liquidator::price_util {
   use sui::math;
 
   use coin_decimals_registry::coin_decimals_registry::{Self, CoinDecimalsRegistry};
-  use math::fixed_point32_empower;
+  use 0xad013d5fde39e15eabda32b3dbdafd67dac32b798ce63237c27a8f73339b9b6f::fixed_point32_empower;
   use x_oracle::x_oracle::XOracle;
 
   use protocol::market::{Self ,Market};

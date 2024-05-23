@@ -6,7 +6,7 @@ module protocol::lock_obligation {
     use sui::event::emit;
     use sui::object::{Self, ID};
 
-    use math::fixed_point32_empower;
+    use 0xad013d5fde39e15eabda32b3dbdafd67dac32b798ce63237c27a8f73339b9b6f::fixed_point32_empower;
     use coin_decimals_registry::coin_decimals_registry::CoinDecimalsRegistry;
     use x_oracle::x_oracle::XOracle;
 

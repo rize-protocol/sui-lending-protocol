@@ -7,7 +7,7 @@ module protocol::borrow_withdraw_evaluator {
   use std::fixed_point32::{Self, FixedPoint32};
   use sui::math;
   use sui::clock::Clock;
-  use math::fixed_point32_empower;
+  use 0xad013d5fde39e15eabda32b3dbdafd67dac32b798ce63237c27a8f73339b9b6f::fixed_point32_empower;
   use protocol::obligation::{Self, Obligation};
   use protocol::market::{Self, Market};
   use protocol::collateral_value::collaterals_value_usd_for_borrow;

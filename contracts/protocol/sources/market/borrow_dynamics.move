@@ -6,7 +6,7 @@ module protocol::borrow_dynamics {
   use sui::tx_context::TxContext;
   use sui::math;
   use x::wit_table::{Self, WitTable};
-  use math::fixed_point32_empower;
+  use 0xad013d5fde39e15eabda32b3dbdafd67dac32b798ce63237c27a8f73339b9b6f::fixed_point32_empower;
 
   friend protocol::market;
   

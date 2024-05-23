@@ -10,7 +10,7 @@ module protocol::reserve {
   use x::supply_bag::{Self, SupplyBag};
   use x::balance_bag::{Self, BalanceBag};
   use x::wit_table::{Self, WitTable};
-  use math::u64;
+  use 0xad013d5fde39e15eabda32b3dbdafd67dac32b798ce63237c27a8f73339b9b6f::u64;
   use protocol::error;
 
   friend protocol::market;

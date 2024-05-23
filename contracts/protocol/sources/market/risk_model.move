@@ -5,7 +5,7 @@ module protocol::risk_model {
   use sui::event::emit;
   use x::ac_table::{Self, AcTable, AcTableCap};
   use x::one_time_lock_value::{Self, OneTimeLockValue};
-  use math::fixed_point32_empower;
+  use 0xad013d5fde39e15eabda32b3dbdafd67dac32b798ce63237c27a8f73339b9b6f::fixed_point32_empower;
   use protocol::error;
 
   friend protocol::app;

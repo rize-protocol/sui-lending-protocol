@@ -19,7 +19,7 @@ module protocol::market {
   use protocol::collateral_stats::{Self, CollateralStats, CollateralStat};
   use protocol::asset_active_state::{Self, AssetActiveStates};
   use protocol::error;
-  use math::fixed_point32_empower;
+  use 0xad013d5fde39e15eabda32b3dbdafd67dac32b798ce63237c27a8f73339b9b6f::fixed_point32_empower;
 
   friend protocol::app;
   friend protocol::borrow;
