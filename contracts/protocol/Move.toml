@@ -9,7 +9,9 @@ subdir = "crates/sui-framework/packages/sui-framework"
 rev = "mainnet"
 
 [dependencies.Math]
-local = "../libs/math"
+git = "https://github.com/rize-protocol/scallop-math"
+subdir = "math"
+rev = "main"
 
 [dependencies.X]
 local = "../libs/x"
